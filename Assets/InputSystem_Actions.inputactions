@@ -1009,7 +1009,7 @@
                 {
                     "name": "",
                     "id": "56abded5-1bd0-4d5a-9466-1e9d1da32f20",
-                    "path": "",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "Press",
                     "processors": "",
                     "groups": ";XR",
