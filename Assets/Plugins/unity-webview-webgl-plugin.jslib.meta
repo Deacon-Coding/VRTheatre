@@ -2,31 +2,56 @@ fileFormatVersion: 2
 guid: 1353be0798ab043d992cd72e4d92970b
 PluginImporter:
   externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
-  isPreloaded: 0
+  isPreloaded: 1
   isOverridable: 0
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-  - first:
-      Any: 
-    second:
-      enabled: 0
-      settings: {}
-  - first:
-      Editor: Editor
-    second:
+    Android:
+      enabled: 1
+      settings:
+        AndroidLibraryDependee: UnityLibrary
+        AndroidSharedLibraryType: Executable
+        CPU: ARMv7
+    Any:
       enabled: 0
       settings:
+        Exclude Android: 0
+        Exclude Editor: 1
+        Exclude Linux64: 1
+        Exclude OSXUniversal: 1
+        Exclude WebGL: 0
+        Exclude Win: 1
+        Exclude Win64: 1
+    Editor:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
         DefaultValueInitialized: true
-  - first:
-      WebGL: WebGL
-    second:
+        OS: AnyOS
+    Linux64:
+      enabled: 0
+      settings:
+        CPU: x86_64
+    OSXUniversal:
+      enabled: 0
+      settings:
+        CPU: None
+    WebGL:
       enabled: 1
       settings: {}
+    Win:
+      enabled: 0
+      settings:
+        CPU: x86
+    Win64:
+      enabled: 0
+      settings:
+        CPU: None
   userData: 
   assetBundleName: 
   assetBundleVariant: 
